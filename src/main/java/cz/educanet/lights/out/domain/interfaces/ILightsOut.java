@@ -5,10 +5,10 @@ public interface ILightsOut {
     /**
      * @return Count of player moves.
      */
-    int getMoveCount();
+    boolean getMoveCount();
 
     /**
-     * @return True if player managed to turn all lights on, otherwise false.
+     * @return
      */
     boolean isGameOver();
 
